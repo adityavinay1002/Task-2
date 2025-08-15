@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ATMApp {
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
-        BankAccount accountHolder = new BankAccount("Nidhi", "1234", 1000.0);
+        BankAccount accountHolder = new BankAccount("Aditya", "1234", 1000.0);
         TransactionLogger transactionLog = new TransactionLogger();
         ATMService atmService = new ATMService(accountHolder, transactionLog);
 
